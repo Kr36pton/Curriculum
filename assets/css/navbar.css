@@ -1,44 +1,36 @@
 .navbar{
-    background-color: #23022E;
-    width: 100%;
-    margin: 0;
     display: flex;
-    color: #EFF8E2;
-    position: fixed;
-    z-index: 2;
-    padding: 10px;
     justify-content: space-between;
     align-items: center;
+    background-color: #23022E;
+    color: #EFF8E2;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
 }
 .navbar_content{
     font-weight: 700;
     font-style: italic;
-    font-size: 30px;
-    margin-left: 90px;
+    font-size: 1.5rem;
+    margin: .5rem;
 }
-.navbar_nav{
-    margin-left: 12%;
-}
-.navbar_nav a{
+.navbar_nav li a {
     text-decoration: none;
     color: #EFF8E2;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 20px;
+    padding: 1rem;
+    display: block;
 }
 .navbar_nav a:hover{
-    text-decoration: none;
     color: #EFF8E2;
     background-color: #ADA8B6;
-    border-radius: 5px;
 }
 .navbar_nav ul{
-    list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
 }
-.navbar_nav ul li{
-    display: inline;
-    margin-left: 10px;
+.navbar_nav li{
+    list-style: none;
 }
 .toggle_button{
 	position: absolute;
@@ -60,7 +52,6 @@
 	.navbar_content{
 		font-weight: 700;
 		font-style: italic;
-		font-size: 30px;
 		margin-left: 90px;
 	}
 	.toggle_button{

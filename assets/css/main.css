@@ -1,5 +1,6 @@
 @import url(navbar.css);
 @import url(header.css);
+@import url(about.css);
 *{
 	margin: 0;
 	padding: 0;
@@ -8,39 +9,6 @@
 }
 body{
 	background-color: #573280;
-}
-.about{
-	background-color: #EFF8E2;
-	width: 100%;
-	height: auto;
-	padding-top: 50px;
-	float: left;
-}
-.about_title{
-	color: #23022E;
-	font-weight: 700;
-	font-size: 60px;
-	text-align: center;
-}
-.about_content_text{
-	color: #000000;
-	float: left;
-	width: 40%;
-	margin-top: 60px;
-	font-size: 34px;
-	text-align: justify;
-	margin-left: 30px;
-	margin-bottom: 70px;
-	font-weight: 500;
-}
-.about_content_img{
-	float: left;
-	width: 55%;
-	height: auto;
-}
-.about_img img{
-	width: 100%;
-	height: auto;
 }
 .abilities{
 	background-color: #573280;
@@ -182,5 +150,3 @@ body{
 	padding: 10px;
 	color: #EFF8E2;
 }
-
-
