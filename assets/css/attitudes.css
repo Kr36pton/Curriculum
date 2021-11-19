@@ -1,0 +1,32 @@
+.attitudes{
+	background-color: #EFF8E2;
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	float: left;
+}
+.attitudes_title{
+	color: #23022E;
+	font-weight: 700;
+	font-size: 60px;
+	text-align: center;
+}
+.attitudes_content{
+	box-sizing: border-box;
+	width: 100%;
+	height: 400px;
+	font-size: 30px;
+	font-weight: 500;
+	padding: 20px;
+}
+.attitudes_content_txtcontainer{
+	text-align: center;
+	width: 30%;
+	height: 355px;
+	background-color: #573280;
+	border-radius: 10px;
+	float: left;
+	margin-left: 35px;
+	padding: 10px;
+	color: #EFF8E2;
+}

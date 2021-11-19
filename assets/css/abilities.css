@@ -1,0 +1,146 @@
+.abilities{
+	background-color: #573280;
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	float: left;
+    box-sizing: border-box;
+}
+.abilities_title{
+	color: #EFF8E2;
+	font-weight: 700;
+	font-size: 60px;
+	text-align: center;
+}
+.abilities_content_bar{
+	float: left;
+	width: 60%;
+	margin-top: 70px;
+	font-size: 38px;
+	text-align: justify;
+	margin-left: 70px;
+	margin-bottom: 70px;
+	font-weight: 500;
+}
+.abilities_content_text{
+	color: #EFF8E2;
+	float: left;
+	width: 30%;
+	margin-top: 60px;
+	font-size: 50px;
+	text-align: justify;
+	margin-left: 30px;
+	margin-bottom: 70px;
+	font-weight: bold;
+}
+.abilities_content_text_item{
+	margin-bottom: 35px;
+}
+.progress1 {
+	background: rgba(255,255,255,0.1);
+	justify-content: flex-start;
+	border-radius: 100px;
+	align-items: center;
+	position: relative;
+	padding: 0 5px;
+	display: flex;
+	height: 60px;
+	width: 700px;
+}
+.progress1-value {
+    animation: load1 3s normal forwards;
+	box-shadow: 0 10px 40px -10px #fff;
+	border-radius: 100px;
+	background: #fff;
+	height: 50px;
+	width: 0;
+  }
+.progress2 {
+	background: rgba(255,255,255,0.1);
+	justify-content: flex-start;
+	border-radius: 100px;
+	align-items: center;
+	position: relative;
+	padding: 0 5px;
+	display: flex;
+	height: 60px;
+	width: 700px;
+	margin-top: 30px;
+}
+.progress2-value {
+	animation: load2 3s normal forwards;
+	box-shadow: 0 10px 40px -10px #fff;
+	border-radius: 100px;
+	background: #fff;
+	height: 50px;
+	width: 0;
+}
+.progress3 {
+	background: rgba(255,255,255,0.1);
+	justify-content: flex-start;
+	border-radius: 100px;
+	align-items: center;
+	position: relative;
+	padding: 0 5px;
+	display: flex;
+	height: 60px;
+	width: 700px;
+	margin-top: 30px;
+}
+.progress3-value {
+	animation: load3 3s normal forwards;
+	box-shadow: 0 10px 40px -10px #fff;
+	border-radius: 100px;
+	background: #fff;
+	height: 50px;
+	width: 0;
+}
+@keyframes load1 {
+	0% { width: 0; }
+	100% { width:95%; }
+}
+@keyframes load2 {
+	0% { width: 0; }
+	100% { width: 85%; }
+}
+@keyframes load3 {
+	0% { width: 0; }
+	100% { width: 40%; }
+}
+@media (max-width:480px){
+    .abilities_title{
+        font-size: 40px;
+    }
+    .abilities_content_bar{
+        margin-left: 25px;
+    }
+    .progress1{
+        height: 30px;
+	    width: 300px;
+    }
+    .progress1-value{
+        height: 20px;
+    }
+    .progress2{
+        height: 30px;
+	    width: 300px;
+    }
+    .progress2-value{
+        height: 20px;
+    }
+    .progress3{
+        height: 30px;
+	    width: 300px;
+    }
+    .progress3-value{
+        height: 20px;
+    }
+    .abilities_content_text_item{
+        font-size: 25px;
+        margin-bottom: 35px;
+        margin-left: 20px;
+    }
+    .abilities_content_text{
+        width: 10%;
+    }
+}
