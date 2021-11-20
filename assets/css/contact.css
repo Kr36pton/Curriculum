@@ -103,7 +103,6 @@
         margin-bottom: 20px;
         margin-top: 0;
         margin-left: 10px;
-        font-size: 20px;
     }
     .contact_facebook{
         width: 95%;
@@ -116,5 +115,8 @@
         margin-bottom: 20px;
         margin-top: 0;
         margin-left: 10px;
+    }
+    .contact_info_data{
+        font-size: 20px;
     }
 }
