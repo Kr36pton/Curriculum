@@ -44,7 +44,7 @@
 .contact_info_data{
     color: #EFF8E2;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 .contact_email{
     width: 35%;
@@ -119,4 +119,6 @@
     .contact_info_data{
         font-size: 20px;
     }
+
+
 }
