@@ -83,8 +83,9 @@
         font-size: 25px;
     }
     .contact_whatsapp{
-        width: 90%;
+        width: 95%;
         margin-left: 20px;
+        margin-left: 10px;
     }
     .contact_whatsapp img{
         width: 100%;
@@ -92,23 +93,28 @@
         margin-top: 10px;
     }
     .contact_phone{
-        width: 90%;
+        width: 95%;
         margin-bottom: 20px;
         margin-top: 0;
+        margin-left: 10px;
     }
     .contact_email{
-        width: 90%;
+        width: 95%;
         margin-bottom: 20px;
         margin-top: 0;
+        margin-left: 10px;
+        font-size: 20px;
     }
     .contact_facebook{
-        width: 90%;
+        width: 95%;
         margin-bottom: 20px;
         margin-top: 0;
+        margin-left: 10px;
     }
     .contact_instagram{
-        width: 90%;
+        width: 95%;
         margin-bottom: 20px;
         margin-top: 0;
+        margin-left: 10px;
     }
 }
